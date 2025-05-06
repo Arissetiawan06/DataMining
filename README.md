@@ -1,3 +1,4 @@
+```python
 from sklearn import datasets
 from sklearn.model_selection import train_test_split  # Untuk membagi data menjadi data latih dan uji
 from sklearn import tree  # Mengimpor modul pohon keputusan
@@ -35,3 +36,4 @@ plt.figure(figsize=(30, 20))  # Mengatur ukuran gambar pohon keputusan
 plot_tree(dtree, filled=True)  # Menampilkan diagram pohon keputusan dengan pewarnaan berdasarkan kelas
 
 plt.show()  # Menampilkan plot pohon keputusan
+```
